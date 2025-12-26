@@ -26,8 +26,6 @@
 
 .app.waiting h1 {
   text-transform: uppercase;
-  
-
 }
 
 .app.ready {
@@ -40,7 +38,6 @@
 
 .app.tooEarly {
   background-color: #fca311;
-
 }
 
 .app.tooEarly h1 {
@@ -66,7 +63,6 @@
   margin-top: 0.8rem;
 }
 
-
 .app.result {
   background-color: blueviolet;
 }
@@ -87,7 +83,8 @@ p {
 
 /* Tablet and smaller screens */
 @media (max-width: 768px) {
-  html, body {
+  html,
+  body {
     overflow: hidden;
     height: 100vh;
   }
@@ -126,7 +123,8 @@ p {
 
 /* Mobile phones */
 @media (max-width: 480px) {
-  html, body {
+  html,
+  body {
     overflow: hidden;
     height: 100vh;
   }
